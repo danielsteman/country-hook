@@ -28,7 +28,7 @@ const Country = ({ country }) => {
     return null
   }
 
-  if (!country.found) {
+  if (!country.data) {
     return (
       <div>
         not found...
